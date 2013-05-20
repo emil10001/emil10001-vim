@@ -4,14 +4,18 @@ set number
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+syntax on
+
 set mouse=a
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+set rtp+={repository_root}/powerline/bindings/vim
+
 " let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle' 
+" required! 
+Bundle 'gmarik/vundle'
 
 " My Bundles here:
 "
