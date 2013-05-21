@@ -9,9 +9,8 @@ syntax on
 set mouse=a
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
 
-set rtp+={repository_root}/powerline/bindings/vim
+call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
@@ -23,7 +22,6 @@ Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'fishman/ctags'
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
 Bundle 'lukaszkorecki/CoffeeTags'
