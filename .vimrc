@@ -36,6 +36,8 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'zaiste/VimClojure'
 Bundle 'cawinkelmann/vim-web-indent'
+Bundle 'itspriddle/vim-javascript-indent'
+Bundle 'bitfyre/vim-indent-html'
 " vim-scripts repos
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
