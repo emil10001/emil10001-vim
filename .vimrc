@@ -8,6 +8,10 @@ syntax on
 
 set mouse=a
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 set rtp+=~/.vim/bundle/vundle/
 
 call vundle#rc()
@@ -31,6 +35,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'zaiste/VimClojure'
+Bundle 'cawinkelmann/vim-web-indent'
 " vim-scripts repos
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
