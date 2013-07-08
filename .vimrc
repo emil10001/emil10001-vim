@@ -38,6 +38,7 @@ Bundle 'zaiste/VimClojure'
 Bundle 'cawinkelmann/vim-web-indent'
 Bundle 'itspriddle/vim-javascript-indent'
 Bundle 'bitfyre/vim-indent-html'
+Bundle 'bling/vim-airline'
 " vim-scripts repos
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
@@ -59,3 +60,12 @@ map <silent> <C-c><C-c> :TagbarOpen fj<Cr>
 " Map Ctrl-c Ctrl-c to open tagbar
 map <silent> <C-c><C-x> :TagbarClose<Cr>
 
+"display a warning if &et is wrong, or we have mixed-indenting
+set statusline+=%#error#
+set statusline+=%{StatuslineTabWarning()}
+set statusline+=%*
+
+set laststatus=2
+
+set list
+set listchars=tab:->,trail:-,nbsp:-
